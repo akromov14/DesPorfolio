@@ -1,0 +1,331 @@
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .aalar {
+        width: 40px;
+        height: 40px;
+        left: 165px;
+
+        margin-top: 10px;
+        background: #8643DC;
+        padding-bottom: 10px;
+        border-radius: 20px 0px 20px 20px;
+
+        h2 {
+            color: #fff;
+            margin-left: 10px;
+        }
+
+    }
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+        padding-left: 15px;
+
+        a {
+            text-decoration: none;
+            font-family: Red Hat Display;
+            font-style: normal;
+            font-weight: normal;
+        }
+    }
+
+    .btn {
+        border: 1px solid wheat;
+        border-radius: 50%;
+
+    }
+}
+
+.adam2 {
+    margin-top: 150px;
+
+    p {
+        font-size: 30px;
+        color: rgb(170, 158, 158);
+        font-family: Red Hat Display;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    h1 {
+        font-size: 80px;
+        font-family: Red Hat Display;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    .talk {
+        border: 0;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 25px;
+        width: 120px;
+        height: 35px;
+    }
+
+}
+
+.Services {
+    position: absolute;
+    width: 1110px;
+    height: 400px;
+
+    top: 768px;
+    text-align: start;
+
+    .Services2 {
+        border-bottom: 2px solid blueviolet;
+        width: 100px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+.human {
+    position: absolute;
+    width: 535px;
+    height: 622px;
+    left: 664px;
+    top: 46px;
+
+}
+
+// .fa-arrow-right {
+//     padding-top: 5px;
+//     font-size: 20px;
+// }
+
+.image2 {
+    position: absolute;
+}
+
+.fa-mobile-alt {
+    position: relative;
+    font-size: 25px;
+    top: 17px;
+    left: 22px;
+    color: white;
+}
+
+.fa-address-card {
+    position: relative;
+    font-size: 25px;
+    top: 17px;
+    left: 15px;
+    color: white;
+}
+
+.fa-wifi {
+    position: relative;
+    font-size: 25px;
+    top: 17px;
+    left: 15px;
+    color: white;
+}
+
+.uxxx {
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.Neque {
+    margin-top: 30px;
+}
+
+.portfolio {
+    position: absolute;
+    height: 722px;
+    top: 1268px;
+    width: 1050px;
+    left: 170px;
+
+
+    .fa-long-arrow-alt-right {
+        font-size: 25px;
+        padding-left: 20px;
+        color: blueviolet;
+
+    }
+
+    .Explore {
+        font-size: 25px;
+        color: black;
+    }
+
+    .porti {
+        border-bottom: 2px solid blueviolet;
+        width: 120px;
+        margin-bottom: 20px;
+
+        h4 {
+            color: blueviolet;
+            font-family: Red Hat Display;
+            font-style: normal;
+            font-weight: bold;
+        }
+    }
+
+    .web12 {
+        width: 540px;
+        height: 427px;
+        left: 165px;
+        margin-top: 20px;
+        box-shadow: 10px 10px 21px #00000078,
+            -10px -10px 21px #FFFFFF26;
+        ;
+    }
+}
+
+.creative {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+
+    h2 {
+        font-family: Red Hat Display;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+.Clients {
+    position: absolute;
+    top: 2090px;
+    padding-bottom: 100px;
+
+    h1 {
+        font-family: Red Hat Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .Clients2 {
+        border-bottom: 2px solid blueviolet;
+        width: 120px;
+        margin-bottom: 30px;
+
+        h3 {
+            color: blueviolet;
+            font-family: Red Hat Display;
+            font-style: normal;
+
+        }
+    }
+
+    .mitti1 {
+        background-color: rgba(47, 206, 255, 0.274);
+    }
+
+    .mitti2 {
+        background-color: rgba(90, 90, 252, 0.274);
+    }
+
+    .mitti3 {
+        background-color: rgba(255, 127, 80, 0.274);
+    }
+
+    .mitti4 {
+        background-color: rgba(245, 73, 11, 0.315);
+    }
+
+    .mitti5 {
+        background-color: rgba(62, 241, 62, 0.336);
+    }
+
+    .mitti {
+        width: 170px;
+        height: 170px;
+        margin: 30px;
+        border-radius: 15px;
+        display: inline-block;
+        box-shadow: 15px 15px 37px #00000078,
+            -15px -15px 37px #FFFFFF26;
+        ;
+
+
+        img {
+            padding: 10px 0 0 60px;
+        }
+
+        h4 {
+            padding: 20px 0 0 40px;
+        }
+
+        .Slack {
+            padding: 20px 0 0 50px;
+        }
+
+        .Slack2 {
+            padding: 20px 0 0 60px;
+        }
+    }
+}
+
+.bizz {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .human {
+        left: 30px;
+        width: 435px;
+        height: 522px;
+        opacity: 0.3;
+    }
+
+    .Services {
+        left: 70px;
+        padding: 30px;
+        width: 400px;
+    }
+
+    .portfolio {
+        left: 30px;
+        top: 1468px;
+
+        .web12 {
+            width: 440px;
+            height: 327px;
+        }
+    }
+
+    .Carousel {
+        left: 0 !important;
+        top: 3300px !important;
+        width: 500px !important;
+        height: 300px !important;
+    }
+
+    .Clients {
+        top: 2390px;
+    }
+
+    .portfolio {
+        width: 450px;
+    }
+}
+
+.Carousel {
+    position: absolute;
+    left: 300px;
+    top: 2700px;
+    width: 700px;
+    border-radius: 20px;
+    bottom: 100px;
+    height: 400px;
+}
